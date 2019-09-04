@@ -1,0 +1,34 @@
+.dropDownList {
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+    width: 100px;
+}
+.menuContent {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 31px;
+    width: 100px;
+    list-style-type: none;
+    background-color: #282c34;
+}
+.menuContent li {
+    padding: 10px;
+    cursor: pointer;
+}
+.menuContent li:hover {
+    background-color:burlywood;
+}
+.menu {
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    /* background-color:cadetblue; */
+    cursor: pointer;
+    border: 0;
+}
+.hidden {
+    display: none;
+}
